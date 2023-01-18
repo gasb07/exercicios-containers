@@ -28,6 +28,6 @@
     }
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "kubernetes-cluster-running:1.25"
   }
 }
