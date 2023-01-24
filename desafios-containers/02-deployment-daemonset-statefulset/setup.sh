@@ -1,1 +1,1 @@
-k create ns marketing
+kubectl create ns marketing
