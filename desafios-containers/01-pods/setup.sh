@@ -1,1 +1,2 @@
-touch /var/dont-need-this.png
+k create ns marketing
+
