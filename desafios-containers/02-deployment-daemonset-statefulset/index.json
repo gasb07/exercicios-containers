@@ -1,0 +1,33 @@
+{
+  "title": "Desafio 2: Deployments, Daemonsets e Statefulsets",
+  "description": "Desafio que irá testar sua habilidade na criação e edição de deployments, daemonsets, statefulsets",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Questão 1 - Deployments",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Questão 2 - Deployments",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Deleção de pods",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.25"
+  }
+}
