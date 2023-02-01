@@ -16,7 +16,7 @@ if [[ "$IMAGE" == "nginx:latest" && \
       "$REPLICAS" == "1" && \
       "$LABEL1" == "production" && \
       "$ENV1" == "/var/http/www" && \
-      "$ENV2" == "payroll.company.com.int" ]]; then
+      "$ENV2" == "payroll.company.com" ]]; then
     exit 0
 else
     exit 1
